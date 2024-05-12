@@ -1,0 +1,81 @@
+/* Team page specific styles */
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 300px;
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.member p{
+    margin-block-start: 10px;
+    margin-block-end: 15px;
+}
+
+.member h2 {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-bottom: 10px;
+}
+
+.member a {
+    text-decoration: none;
+    color: #333;
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.member a:hover {
+    background-color: #999;
+}
+
+.student-info {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.expandable-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.expandable-card h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.expandable-card p,
+.expandable-card ul {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    display: none;
+}
+
+li {
+    margin-bottom: 4px;
+}
