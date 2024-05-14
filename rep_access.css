@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    margin-bottom: 5%;
+    margin-bottom: 4.5%;
 }
 
 .persona {
@@ -31,4 +31,8 @@
 .persona-card a {
     text-decoration: none;
     color: black;
+}
+
+.persona-card p {
+    font-size: 18px;
 }
