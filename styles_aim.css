@@ -42,7 +42,8 @@ nav ul li a {
 }
 
 .logo img {
-    width: 15%;
+    width: 75px;
+    margin-left: 35px;
 }
 
 main {
