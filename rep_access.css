@@ -1,0 +1,38 @@
+.persona-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 4.5%;
+}
+
+.persona {
+    width: 300px;
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.persona h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.persona img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+.persona-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.persona-card p {
+    font-size: 18px;
+}
