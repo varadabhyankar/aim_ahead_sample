@@ -97,22 +97,22 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 footer h3 {
-    margin-top: 25px;
     margin-bottom: 5px;
     margin-left: 70px;
     margin-right: 70px;
     font-size: 24px;
 }
 
-.contact-info p {
-    margin-bottom: 25px;
+#email_link {
+    margin-bottom: 20px;
     margin-left: 70px;
-    margin-block-start: 10px;
+    margin-block-start: 5px;
     font-size: 22px;
+    text-decoration: none;
+    color: #070059;
 }
 
 .social-media ul {
