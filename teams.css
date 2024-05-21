@@ -16,6 +16,8 @@
     padding-right: 5px;
     border: 1px solid #ddd;
     text-align: center;
+    background-color: rgb(241, 247, 250);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .member img {
@@ -62,6 +64,8 @@
     margin-right: 20px;
     margin-top: 40px;
     margin-bottom: 20px;
+    background-color: rgb(241, 247, 250);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .expandable-card h2 {
